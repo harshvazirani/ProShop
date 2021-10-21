@@ -1,0 +1,29 @@
+{
+  "name": "proshop",
+  "version": "1.0.0",
+  "description": "MERN Shopping Cart App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon backend/server",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshvazirani/ProShop.git"
+  },
+  "author": "Harsh Vazirani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshvazirani/ProShop/issues"
+  },
+  "homepage": "https://github.com/harshvazirani/ProShop#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "^6.3.0",
+    "nodemon": "^2.0.14"
+  }
+}
