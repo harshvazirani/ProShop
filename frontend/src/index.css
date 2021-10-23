@@ -46,3 +46,11 @@ h4{
   font-size: 1.4rem;
   margin-left: 1rem;
 }
+
+a.nav-link{
+  font-weight: 600;
+}
+
+label.form-label{
+  font-weight: 500;
+}
